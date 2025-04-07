@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="VcsDirectoryMappings">
+    <mapping directory="" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/parent" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/xy-api" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/xy-common" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/xy-data" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/xy-web" vcs="Git" />
+  </component>
+</project>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="xy-data" />
+        <module name="xy-api" />
+        <module name="xy-web" />
+        <module name="xy-common" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="parent" target="19" />
+      <module name="xy-api" target="19" />
+      <module name="xy-common" target="19" />
+      <module name="xy-data" target="19" />
+      <module name="xy-web" target="19" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="xy-api" options="-parameters" />
+      <module name="xy-common" options="-parameters" />
+      <module name="xy-data" options="-parameters" />
+      <module name="xy-web" options="-parameters" />
+    </option>
+  </component>
+</project>
